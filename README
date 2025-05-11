@@ -20,7 +20,7 @@ This project presents an end-to-end **airline data analysis** solution using **Q
 |----------------|--------------------------------------------|
 | **Qlik Sense** | Data loading, modeling, visual dashboards  |
 | **MySQL**      | Data source (no modeling in SQL)           |
-| **ER Diagram** | Conceptual data relationship planning       |
+| **ER Diagram** | Conceptual data relationship planning      |
 
 ---
 
