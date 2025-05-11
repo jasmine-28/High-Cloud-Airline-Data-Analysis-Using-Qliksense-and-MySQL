@@ -1,89 +1,63 @@
-High Cloud Airline Analysis Using Qlik Sense and MySQL
+# ✈️ High Cloud Airline Analysis | Qlik Sense and MySQL
 
-This project is an end to end business intelligence solution built using Qlik Sense and connected to a MySQL database. It aims to deliver insights into airline operations, performance trends, and customer satisfaction, primarily for decision-makers in the aviation industry.
+This project presents an end-to-end **airline data analysis** solution using **Qlik Sense** with a **MySQL** data connection. The objective is to provide actionable insights into flight performance, delays, and customer satisfaction for business decision-makers.
 
-Project Overview
+---
 
-The High Cloud Airline Analysis project focuses on visualizing and analyzing operational airline data including flights, delays, cancellations, and passenger satisfaction.
+## 📌 Project Overview
 
-Data Source: MySQL
+**High Cloud Airline Analysis** is a Qlik Sense BI project based on operational and customer feedback data from a fictional airline.  
 
-Data Modeling: Performed in Qlik Sense Data Load Editor
+- **Data Source:** MySQL  
+- **Data Modeling & Transformation:** Performed in **Qlik Sense Data Load Editor**  
+- **Visualizations:** Interactive charts, KPIs, maps, and dashboards
 
-Visualizations: Dashboards, KPIs, trend charts, maps
+---
 
+## 🛠️ Tools & Technologies
 
-Tools and Technologies
+| Tool           | Usage                                      |
+|----------------|--------------------------------------------|
+| **Qlik Sense** | Data loading, modeling, visual dashboards  |
+| **MySQL**      | Data source (no modeling in SQL)           |
+| **ER Diagram** | Conceptual data relationship planning       |
 
-Qlik Sense 
-Data modeling
-Data Load Editor 
-MySQL Data source
-ER Diagram
+---
 
-Key Features
+## 🔍 Key Features
 
-Data Modeling using Qlik Sense Data Load Editor
+- **Data Modeling in Qlik Sense**
+  - Used `JOIN`, `CONCATENATE`, `ApplyMap` for combining data
+  - Created a **master calendar** for time-series analysis
+  - Handled synthetic keys and circular loops efficiently
 
-Utilized joins, ApplyMap, and transformations
+- **Dynamic Dashboards**
+  - Monthly flight metrics and trends  
+  - Delay/cancellation patterns  
+  - Class-wise satisfaction scores and demographics
 
-Built a master calendar for time-based analysis
+- **KPIs & Set Analysis**
+  - On-time performance rate  
+  - Cancellation and delay percentages  
+  - Satisfaction analysis by class, type, and gender
 
-Resolved synthetic keys and circular references
+---
 
+## ▶️ How to Use
 
-Interactive Dashboards
+1. Clone or download the repository  
+2. Open `HighCloudAirlineAnalysis.qvf` in Qlik Sense (desktop or SaaS)  
+3. Connect to MySQL if reloading data  
+4. Explore the interactive dashboards
 
-Monthly flight trends and on-time performance
+---
 
-Delay and cancellation metrics by region and class
+## 🎯 Objective
 
-Passenger satisfaction trends by type and gender
+This project was developed to:
+- Demonstrate **Qlik Sense skills** without backend SQL modeling
+- Showcase how **data loading scripts** and **set analysis** drive insights
+- Present a professional, beginner-friendly **BI portfolio project**
 
+---
 
-Advanced Set Analysis
-
-Key metrics like on-time rate and delay percentage
-
-Class-wise and time-based comparison of KPIs
-
-
-Folder Structure
-
-HighCloudAirlineAnalysis
-
-HighCloudAirlineAnalysis.qvf       (Qlik Sense app file)
-
-ER_Diagram.png                     (Entity-Relationship diagram)
-
-screenshots/screenrecodings        (Dashboard visuals)
-
-overview_kpis.png
-
-delay_trends_chart.png
-
-README.txt                         (Project documentation)
-
-
-How to Use
-
-1. Download the repository files
-
-
-2. Open the QVF file in Qlik Sense Desktop or SaaS
-
-
-3. Ensure your MySQL connection is available for data reload
-
-
-4. Explore the dashboards to analyze insights
-
-
-
-Objective
-
-This project showcases Qlik Sense skills for connecting to external databases, performing data modeling in the Data Load Editor, and creating insightful dashboards for operational analysis.
-
-Contact
-
-Feel free to reach out for suggestions, feedback, or collaboration opportunities.
