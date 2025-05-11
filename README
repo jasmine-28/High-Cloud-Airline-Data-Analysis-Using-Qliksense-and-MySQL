@@ -14,6 +14,15 @@ This project presents an end-to-end **airline data analysis** solution using **Q
 
 ---
 
+## 🎯 Objective
+
+This project was developed to:
+- Demonstrate **Qlik Sense skills** without backend SQL modeling
+- Showcase how **data loading scripts** and **set analysis** drive insights
+- Present a professional, beginner-friendly **BI portfolio project**
+
+---
+
 ## 🛠️ Tools & Technologies
 
 | Tool           | Usage                                      |
@@ -49,15 +58,6 @@ This project presents an end-to-end **airline data analysis** solution using **Q
 2. Open `HighCloudAirlineAnalysis.qvf` in Qlik Sense (desktop or SaaS)  
 3. Connect to MySQL if reloading data  
 4. Explore the interactive dashboards
-
----
-
-## 🎯 Objective
-
-This project was developed to:
-- Demonstrate **Qlik Sense skills** without backend SQL modeling
-- Showcase how **data loading scripts** and **set analysis** drive insights
-- Present a professional, beginner-friendly **BI portfolio project**
 
 ---
 
