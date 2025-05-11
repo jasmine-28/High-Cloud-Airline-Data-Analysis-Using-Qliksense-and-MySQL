@@ -6,7 +6,7 @@ This project presents an end-to-end **airline data analysis** solution using **Q
 
 ## 📌 Project Overview
 
-**High Cloud Airline Analysis** is a Qlik Sense BI project based on operational and customer feedback data from a fictional airline.  
+**High Cloud Airline Data Analysis** is a Qlik Sense BI project based on operational and customer feedback data from a fictional airline.  
 
 - **Data Source:** MySQL  
 - **Data Modeling & Transformation:** Performed in **Qlik Sense Data Load Editor**  
