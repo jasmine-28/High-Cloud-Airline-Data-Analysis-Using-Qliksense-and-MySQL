@@ -1,0 +1,89 @@
+High Cloud Airline Analysis Using Qlik Sense and MySQL
+
+This project is an end to end business intelligence solution built using Qlik Sense and connected to a MySQL database. It aims to deliver insights into airline operations, performance trends, and customer satisfaction, primarily for decision-makers in the aviation industry.
+
+Project Overview
+
+The High Cloud Airline Analysis project focuses on visualizing and analyzing operational airline data including flights, delays, cancellations, and passenger satisfaction.
+
+Data Source: MySQL
+
+Data Modeling: Performed in Qlik Sense Data Load Editor
+
+Visualizations: Dashboards, KPIs, trend charts, maps
+
+
+Tools and Technologies
+
+Qlik Sense 
+Data modeling
+Data Load Editor 
+MySQL Data source
+ER Diagram
+
+Key Features
+
+Data Modeling using Qlik Sense Data Load Editor
+
+Utilized joins, ApplyMap, and transformations
+
+Built a master calendar for time-based analysis
+
+Resolved synthetic keys and circular references
+
+
+Interactive Dashboards
+
+Monthly flight trends and on-time performance
+
+Delay and cancellation metrics by region and class
+
+Passenger satisfaction trends by type and gender
+
+
+Advanced Set Analysis
+
+Key metrics like on-time rate and delay percentage
+
+Class-wise and time-based comparison of KPIs
+
+
+Folder Structure
+
+HighCloudAirlineAnalysis
+
+HighCloudAirlineAnalysis.qvf       (Qlik Sense app file)
+
+ER_Diagram.png                     (Entity-Relationship diagram)
+
+screenshots/screenrecodings        (Dashboard visuals)
+
+overview_kpis.png
+
+delay_trends_chart.png
+
+README.txt                         (Project documentation)
+
+
+How to Use
+
+1. Download the repository files
+
+
+2. Open the QVF file in Qlik Sense Desktop or SaaS
+
+
+3. Ensure your MySQL connection is available for data reload
+
+
+4. Explore the dashboards to analyze insights
+
+
+
+Objective
+
+This project showcases Qlik Sense skills for connecting to external databases, performing data modeling in the Data Load Editor, and creating insightful dashboards for operational analysis.
+
+Contact
+
+Feel free to reach out for suggestions, feedback, or collaboration opportunities.
